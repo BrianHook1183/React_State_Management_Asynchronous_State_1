@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 
+/* 
+Fix the IncrementButtons component so that the counts are updated properly.
+*/
+
 function IncrementButtons() {
   const [oneCount, setOneCount] = useState(0);
   const [twoCount, setTwoCount] = useState(0);
